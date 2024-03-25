@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: simple-s3-bucket
+
+# Metadata: 
+
+# Parameters: 
+
+# Mappings: 
+
+# Conditions: 
+
+# Resources: 
+
+# Outputs:
+
+s3Bucket:
+  Type: AWS::S3::Bucket
+  Properties: 
+    AccessControl: Private
+    BucketName: mytest
+    Tags:
+      - Key: squad
+        Value: foc
